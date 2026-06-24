@@ -58,3 +58,9 @@ coverage.xml
 *.njsproj
 *.sln
 *.swp
+
+*img/
+*.jpg
+*.jpeg
+*.png
+*.svg
