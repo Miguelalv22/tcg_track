@@ -1,7 +1,7 @@
 from nicegui import ui
 
 def create_collection(name_collection, cover_collection):
-    with ui.link(target='/card-collection', new_tab=False).classes(' w-[45%]'):
+    with ui.link(target='/card-collection', new_tab=False).classes('w-[45%] no-underline'):
         with ui.card().tight().classes('shadow-lg rounded-lg'):
             ui.image(f'{cover_collection}').classes('h-30')
             
